@@ -20,28 +20,32 @@
                 <li><a href="index.html#about">About Us</a></li>
                 <li><a href="index.html#contact">Contact Us</a></li>
                 <li><a href="mitra.html" class="active">Mitra</a></li>
-                <li><a href="https://hhsoftwares-8fef0.web.app/" class="nav-business-login-btn" target="_blank"><i class="fas fa-sign-in-alt" style="margin-right: 6px;"></i>Business Login</a></li>
+                <li><a href="https://hhsoftwares-8fef0.web.app/" class="nav-business-login-btn" target="_blank"><i
+                            class="fas fa-sign-in-alt" style="margin-right: 6px;"></i>Business Login</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero" style="height: 60vh;">
+    <!-- <section class="hero" style="height: 60vh;">
         <div class="hero-content">
             <h1>Mitra mutually aided cooperative thrift and credit society ltd</h1>
             <p>Committed to welfare, cooperative growth, and mutual benefit.</p>
         </div>
-    </section>
+    </section> -->
 
     <div class="container container-wide">
 
         <section class="section-card" style="margin-top: 4rem;">
             <div class="section-header">
-                <h2>Prosperity Blueprint</h2>
+                <h2>Mitra mutually aided cooperative thrift and credit society ltd</h2>
                 <div class="underline"></div>
             </div>
 
-            <p style="margin-bottom: 2rem; color: var(--text-color); max-width: 800px; margin-left: auto; margin-right: auto;">
-                Explore the official <strong>Mitra mutually aided cooperative thrift and credit society ltd</strong> Prosperity Blueprint. Flip through the pages below to learn more about our schemes, benefits, and cooperative growth plan. Click on any page to view in fullscreen.
+            <p
+                style="margin-bottom: 2rem; color: var(--text-color); max-width: 800px; margin-left: auto; margin-right: auto;">
+                Explore the official <strong>Mitra mutually aided cooperative thrift and credit society ltd</strong>
+                Prosperity Blueprint. Flip through the pages below to learn more about our schemes, benefits, and
+                cooperative growth plan. Click on any page to view in fullscreen.
             </p>
 
             <!-- Stunning Premium Carousel -->
@@ -51,31 +55,40 @@
                     <div class="carousel-progress-bar" id="carouselProgressBar"></div>
                     <div class="carousel-slides" id="carouselSlides">
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0001.jpg" alt="Prosperity Blueprint - Page 1" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0001.jpg"
+                                alt="Prosperity Blueprint - Page 1" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0002.jpg" alt="Prosperity Blueprint - Page 2" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0002.jpg"
+                                alt="Prosperity Blueprint - Page 2" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0003.jpg" alt="Prosperity Blueprint - Page 3" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0003.jpg"
+                                alt="Prosperity Blueprint - Page 3" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0004.jpg" alt="Prosperity Blueprint - Page 4" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0004.jpg"
+                                alt="Prosperity Blueprint - Page 4" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0005.jpg" alt="Prosperity Blueprint - Page 5" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0005.jpg"
+                                alt="Prosperity Blueprint - Page 5" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0006.jpg" alt="Prosperity Blueprint - Page 6" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0006.jpg"
+                                alt="Prosperity Blueprint - Page 6" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0007.jpg" alt="Prosperity Blueprint - Page 7" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0007.jpg"
+                                alt="Prosperity Blueprint - Page 7" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0008.jpg" alt="Prosperity Blueprint - Page 8" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0008.jpg"
+                                alt="Prosperity Blueprint - Page 8" loading="lazy" class="carousel-img">
                         </div>
                         <div class="carousel-slide">
-                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0009.jpg" alt="Prosperity Blueprint - Page 9" loading="lazy" class="carousel-img">
+                            <img src="images/MITRA_MACC_Prosperity_Blueprint_page-0009.jpg"
+                                alt="Prosperity Blueprint - Page 9" loading="lazy" class="carousel-img">
                         </div>
                     </div>
 
@@ -162,7 +175,7 @@
             const expandBtn = document.getElementById('expandBtn');
             const counter = document.getElementById('carouselCounter');
             const dotsContainer = document.getElementById('carouselDots');
-            
+
             const lightbox = document.getElementById('lightboxModal');
             const lightboxImg = document.getElementById('lightboxImg');
             const lightboxClose = document.getElementById('lightboxClose');
@@ -189,10 +202,10 @@
             function updateCarousel() {
                 // Update translate position
                 slidesContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
-                
+
                 // Update counter
                 counter.textContent = `Page ${currentIndex + 1} of ${totalSlides}`;
-                
+
                 // Update active dot
                 dots.forEach((dot, index) => {
                     dot.classList.toggle('active', index === currentIndex);
@@ -214,7 +227,7 @@
 
             function startAutoplay() {
                 if (autoplayTimer) return;
-                
+
                 let startTime = Date.now();
                 autoplayTimer = setInterval(() => {
                     nextSlide(false); // pass false for automated transitions
@@ -222,7 +235,7 @@
 
                 progressBar.style.transition = 'none';
                 progressBar.style.width = '0%';
-                
+
                 // Progress bar animation
                 progressInterval = setInterval(() => {
                     const elapsed = Date.now() - startTime;
